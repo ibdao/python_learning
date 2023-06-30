@@ -5,7 +5,9 @@ print('We can even include "quotes" in strings')
 print("hello" + " world") # string concatenation
 
 greeting = "Hello"
-name = input("Please enter your name ")
+name = "Ian"
 
 print(greeting + ' ' + name)
 
+age = 26 
+print(age)
