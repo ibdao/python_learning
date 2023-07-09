@@ -16,12 +16,14 @@ print(parrot)
 #             print(parrot[j])
 #             break
 
-print(parrot[0:6]) # Norweg
-print(parrot[3:5]) # we
-print(parrot[0:9]) # Norwegian
-print(parrot[10:]) # Blue
+# print(parrot[0:6]) # Norweg
+# print(parrot[3:5]) # we
+# print(parrot[0:9]) # Norwegian
+# print(parrot[10:]) # Blue
 
-print(parrot[:6] + parrot[6:] == parrot[:])
+# print(parrot[:6] + parrot[6:] == parrot[:])
 
-letters ="abcedefghijklmnopqrstuwxyz"
+letters ="abcedefghijklmnopqrstuvwxyz"
 
+print(parrot[-4:-2]) # Bl
+print(parrot[-4:12]) # Bl
