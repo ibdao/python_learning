@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 name = input("Who are you? ")
 age = int(input("Hello {}, how old are you? ".format(name)))
 
