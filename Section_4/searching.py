@@ -4,7 +4,7 @@ shopping_list = ["milk", "pasta", "eggs", "spam", "bread", "rice"]
 
 item_to_find = "spam"
 
-for index, item in enumerate(shopping_list):
-    if item is item_to_find:
-        print(f"Buy {item} at {index}")
-        break
+if item_to_find in shopping_list:
+    print(f"{item_to_find} found at position {shopping_list.index(item_to_find)}")
+else:
+    print(f"{item_to_find} not in list")
