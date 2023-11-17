@@ -9,7 +9,8 @@ while chosen_exit not in available_exits:
         print ("Game over")
         break
 
-print("You escaped!")
+else:
+    print("You escaped!")
 
 
 # print ([i for i in range(0, 21) if (i % 3 != 0 and i % 5 != 0)])
