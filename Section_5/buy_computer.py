@@ -7,11 +7,12 @@ choices = {
     "3":"keyboard",
     "4":"mouse",
     "5":"mouse mat",
-    "6":"HDMI cable"
+    "6":"HDMI cable", 
+    "7":"dvd drive"
 }
 
 while current_choice != '0':
-    if current_choice in '123456':
+    if current_choice in choices.keys():
         computer_parts.append(choices[current_choice])
         print(f"Adding {choices[current_choice]}")
     else:
