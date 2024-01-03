@@ -12,9 +12,12 @@ choices = {
 }
 
 while current_choice != '0':
-    if current_choice in choices.keys():
+    if len(computer_parts) > 0 and choices[current_choice] in computer_parts:
+        print(f"{choices[current_choice]} has already been added")    
+    elif current_choice in choices.keys():
         computer_parts.append(choices[current_choice])
-        print(f"Adding {choices[current_choice]}")
+        print(f"Adding {choices[current_choice]}...")
+        print(f"Your list now contains {computer_parts}.")
     else:
         print("Please add options from the list below: ")
         print(*(f"{choice}: {choices[choice]}\n" for choice in choices))
