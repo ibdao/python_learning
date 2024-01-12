@@ -10,5 +10,13 @@ print(sorted_numbers)
 # .sort method changes the list in place without creating a new list.
 # sorted() function sorts and creates a new list
 
-digits = sorted("432985617")
+digits = list("432985617")
 print(digits) 
+
+# more_numbers = list(numbers)
+# more_numbers = numbers[:]
+more_numbers = numbers.copy()
+print(more_numbers)
+
+print(numbers is more_numbers)
+print(numbers == more_numbers)
