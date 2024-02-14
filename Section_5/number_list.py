@@ -16,6 +16,7 @@ print(digits)
 # more_numbers = list(numbers)
 # more_numbers = numbers[:]
 more_numbers = numbers.copy()
+more_numbers = numbers[:]
 print(more_numbers)
 
 print(numbers is more_numbers)
